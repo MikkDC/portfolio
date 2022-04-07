@@ -383,18 +383,24 @@ span .blue {
 	font-size: 1.8rem;
 	font-weight: 500;
 	margin-top: 10px;
+	color: lightblue;
+	padding-bottom: 10px;
 }
 
 #projects .project-info p {
 	color: white;
+	line-height: 2.5rem;
 }
 
-#projects .project-img {
-	flex-basis: 50%;
-	height: 300px;
-	overflow: hidden;
-	position: relative;
+#projects .project-info a {
+	color: lightblue;
 }
+
+#projects .project-info img {
+	padding: 5px 5px 5px 0px;
+}
+
+
 
 /* End Projects section */
 
@@ -621,14 +627,6 @@ span .blue {
 
 	/* End home */
 
-	/* Services Section */
-	#services .service-bottom .service-item {
-		flex-basis: 45%;
-		margin: 2.5%;
-	}
-
-	/* End Services Section */
-
 	/* Project */
 	#projects .project-item {
 		flex-direction: row;
@@ -752,12 +750,6 @@ span .blue {
 		display: none;
 	}
 
-	/* End header */
-
-	#services .service-bottom .service-item {
-		flex-basis: 22%;
-		margin: 1.5%;
-	}
 }
 
 /* End  Media Query For Desktop */
