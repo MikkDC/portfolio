@@ -186,7 +186,7 @@ p {
 	width: 100%;
 	border-radius: 50%;
 	border: 3px solid white;
-	animation: hamburger_puls 1s ease infinite;
+	animation: hamburger_pulse 1s ease infinite;
 }
 
 #header .hamburger .bar {
@@ -558,7 +558,7 @@ span .blue {
 
 
 /* Keyframes */
-@keyframes hamburger_puls {
+@keyframes hamburger_pulse {
 	0% {
 		opacity: 1;
 		transform: scale(1);
